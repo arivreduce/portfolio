@@ -17,7 +17,7 @@ export const links = [
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
 ];
-
+// skills
 export const skills = [
   {
     id: nanoid(),

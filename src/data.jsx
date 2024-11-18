@@ -9,6 +9,9 @@ import {
   FaDocker,
 } from 'react-icons/fa';
 import { SiTypescript, SiWebpack } from 'react-icons/si';
+import chrusty from './assets/chrusty.png';
+import comfy from './assets/comfy.png';
+import testsudo from './assets/testsudo.png';
 
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
@@ -23,13 +26,13 @@ export const skills = [
     id: nanoid(),
     title: 'JavaScript',
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality.',
   },
   {
     id: nanoid(),
     title: 'TypeScript',
     icon: <SiTypescript className="h-16 w-16 text-emerald-500" />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    text: 'Strong proficiency in TypeScript, enhancing JavaScript with static typing to build more reliable, scalable applications with improved maintainability and developer productivity.',
   },
   {
     id: nanoid(),
@@ -42,31 +45,31 @@ export const skills = [
     id: nanoid(),
     title: 'Node',
     icon: <FaNodeJs className="h-16 w-16 text-emerald-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    text: 'Experienced in Node.js, creating efficient and scalable server-side applications with a focus on non-blocking, event-driven architecture for real-time data processing.',
   },
   {
     id: nanoid(),
     title: 'Databases',
     icon: <FaDatabase className="h-16 w-16 text-emerald-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    text: 'Skilled in relational and non-relational databases, adeptly managing data integrity and scalability across systems such as PostgreSQL, MongoDB, and MySQL to support complex application requirements.',
   },
   {
     id: nanoid(),
     title: 'AWS',
     icon: <FaAws className="h-16 w-16 text-emerald-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    text: 'Proficient in AWS services, leveraging cloud infrastructure for scalable, secure, and high-performance applications, with experience in services like EC2, S3, and Lambda for optimized deployment solutions.',
   },
   {
     id: nanoid(),
     title: 'Docker',
     icon: <FaDocker className="h-16 w-16 text-emerald-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    text: 'Knowledgeable in Docker, containerizing applications to streamline development, deployment, and scalability, ensuring consistent environments across various stages of production.',
   },
   {
     id: nanoid(),
     title: 'Webpack',
     icon: <SiWebpack className="h-16 w-16 text-emerald-500" />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    text: 'Proficient in Webpack, optimizing front-end assets and configurations to improve application performance, modularity, and load times, facilitating a smooth user experience.',
   },
   {
     id: nanoid(),
@@ -79,26 +82,24 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: testsudo,
+    url: 'https://testsudo.com/',
+    github: 'https://github.com/oslabs-beta/testsudo',
+    title: 'Testsudo',
+    text: 'With a single CLI command, Testsudo runs comprehensive tests and provides a detailed dashboard for each project, giving you insights on every page and path.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: chrusty,
+    url: 'https://chrusty.co/',
+    title: 'Chrusty Co.',
+    text: 'An eCommerce platform for a client to showcase and sell their art, featuring a dynamic shop page, cart functionality, and Stripe API integration for seamless payment processing.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: comfy,
+    url: 'https://comfyco.netlify.app/',
+    title: 'Comfy Store',
+    text: 'A custom eCommerce site developed for a furniture seller to beautifully showcase and sell their products online, complete with a user-friendly shopping experience and secure payment options.',
   },
 ];

@@ -11,14 +11,21 @@ const About = () => {
           className="w-full h-64"
         />
         <article>
-          <SectionTitle text="code and coffee" />
+          <SectionTitle text="about me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
-            sint corporis laboriosam id amet reprehenderit in obcaecati nemo
-            accusantium ab quibusdam ratione quam quos ea, ipsum consequatur.
-            Error corporis itaque animi quis velit, doloribus atque earum
-            possimus a sint distinctio molestiae quaerat officiis, recusandae,
-            tempora expedita id fugit aliquid! Laudantium.
+            I’m a software engineer with a strong foundation in building
+            dynamic, scalable applications. Skilled in JavaScript, React, and
+            Node.js, I enjoy creating intuitive user interfaces and efficient
+            back-end solutions that improve performance and user experience. My
+            recent work on Testsudo—a testing suite for frontend, backend, and
+            security metrics—showcases my focus on delivering impactful tools
+            for developers, from configuring Google Lighthouse for accurate
+            metrics to designing a user-friendly dashboard for in-depth
+            analysis. With experience in a range of technologies, from
+            TypeScript to AWS, I bring a versatile approach to problem-solving
+            and thrive on learning new skills to optimize every aspect of my
+            projects. Outside of coding, you’ll find me practicing yoga, playing
+            tennis, or exploring music history one album at a time.
           </p>
         </article>
       </div>

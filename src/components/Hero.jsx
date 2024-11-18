@@ -8,7 +8,7 @@ const Hero = () => {
         <article>
           <h1 className="text-7xl font-bold tracking-wider">I'm Aaron</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide">
-            Full-Stack Developer
+            Full-Stack Software Engineer
           </p>
           <p className="mt-2 text-lg text-slate-700 capitalize tracking-wide">
             turning ideas into interactive reality
@@ -18,7 +18,7 @@ const Hero = () => {
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
             </a>
             <a href="https://www.linkedin.com/in/aaronrivas/" target="_blank">
-              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300" />
+              <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-[#0077B5] duration-300" />
             </a>
           </div>
         </article>
